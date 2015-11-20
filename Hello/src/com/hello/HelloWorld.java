@@ -3,7 +3,8 @@ package com.hello;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Java");
+		Message message = new Message();
+		System.out.println(message.sayHello("Hazekul Alam"));
 	}
 
 }
